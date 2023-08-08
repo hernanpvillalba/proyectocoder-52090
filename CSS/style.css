@@ -116,76 +116,100 @@ main div form label{
     grid-template-rows: 200px 300px 300px 300px 300px ;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    justify-items: center;
+    justify-items: start;
 }
 .grid-titulo{
     grid-area: h1;
     font-size: 5rem;
     color: #FAD4DB;
     font-family:'Alegreya', serif;
+    justify-self: center;
 }
 .novedades-img-1{
     grid-area: nuevo1;
-    justify-self: left;
+    justify-self: right;
+    margin: 10px;
+    padding: 20px;
 }
 .novedades-titulo-1{
     grid-area: texto1;
     color: #ED84B3;
+    margin: 10px;
+    padding: 40px;
 }
 .novedades-texto-1{
     grid-area: texto1;
     font-family:'Alegreya', serif;
     font-size: 1.3rem;
     color: #AAD9DD;
-    padding: 10px;
+    margin: 10px;
+    padding: 40px;
     align-self: center;
+}
+.novedades-desayunos{
+    border: 3px solid blue;
 }
 .novedades-img-2{
     grid-area: nuevo2;
-    justify-self: right;
+    justify-self: left;
+    margin: 10px;
+    padding: 20px;
 }
 .novedades-titulo-2{
     grid-area: texto2;
     color: #ED84B3;
+    margin: 10px;
+    padding: 40px;
 }
 .novedades-texto-2{
     grid-area: texto2;
     font-family:'Alegreya', serif;
     font-size: 1.3rem;
     color: #AAD9DD;
-    padding: 10px;
+    margin: 10px;
+    padding: 40px;
     align-self: center;
 }
 .novedades-img-3{
     grid-area: nuevo3;
-    justify-self: left;
+    justify-self: right;
+    margin: 10px;
+    padding: 20px;
 }
 .novedades-titulo-3{
     grid-area: texto3;
     color: #ED84B3;
+    margin: 10px;
+    padding: 40px;
 }
 .novedades-texto-3{
     grid-area: texto3;
     font-family:'Alegreya', serif;
     font-size: 1.3rem;
     color: #AAD9DD;
-    padding: 10px;
+    margin: 10px;
+    padding: 40px;
     align-self: center;
 }
 .novedades-img-4{
     grid-area: nuevo4;
-    justify-self: right;
+    justify-self: left;
+    margin: 10px;
+    padding: 20px;
 }
 .novedades-titulo-4{
     grid-area: texto4;
     color: #ED84B3;
+    margin: 10px;
+    padding: 40px;
 }
 .novedades-texto-4{
     grid-area: texto4;
     font-family:'Alegreya', serif;
     font-size: 1.3rem;
     color: #AAD9DD;
-    padding: 10px;
+    margin: 10px;
+    padding: 40px;
     align-self: center;
 }
 
