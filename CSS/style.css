@@ -1,0 +1,235 @@
+/* colores 
+#F6C1D9 / Rosa fuerte
+#ED84B3 / Fucsia
+#AAD9DD / celeste
+#312A6F / azul
+#FAD4DB / rosa
+#BDCC8A / verde
+*/
+
+/*header*/
+header img{
+    width: 100px;
+}
+.bg-rosa{
+    background-color: #F6C1D9;
+}
+.navbar-nav{
+    font-family:'Alegreya', serif;
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: white;
+}
+
+ /*body*/
+ body{
+    font-family: 'Alegreya', serif;
+    font-size: 62.5%;
+}
+
+/*index*/
+
+/*banner*/
+
+.banner{
+    background-image: url(../imagenes/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FAD4DB;
+    font-family:'Alegreya', serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    padding: 80px 0px;
+}
+.banner h1{
+    font-size: 5rem;
+    color: #FAD4DB;
+    font-family:'Alegreya', serif;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+.banner p{
+    font-size: 3rem;
+}
+
+/*main*/
+
+main section h2{
+    color: #312A6F;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+.divPadreFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #F6C1D9;
+    font-size: 2rem;
+}
+main section div img{
+    width: 40%;
+}
+
+/*contacto*/
+main div form label{
+    font-size: 1rem;
+}
+
+/*nosotros*/
+.textoPresentacion{
+    margin: 10px;
+    padding: 20px;
+    color: #FAF0D7;
+    text-align: left;
+    background-color: #8CC0DE;
+    font-size: 1.3rem;
+}   
+.fotoPresentacion{
+    width: 20%;
+    margin: 10px ;
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*novedades*/
+.contenedor-grid img{
+    width: 300px;
+    height: 300px;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-areas: 
+    "h1       h1"  
+    "nuevo1 texto1" 
+    "texto2 nuevo2" 
+    "nuevo3 texto3" 
+    "texto4 nuevo4";
+
+    grid-template-rows: 200px 300px 300px 300px 300px ;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.grid-titulo{
+    grid-area: h1;
+    font-size: 5rem;
+    color: #FAD4DB;
+    font-family:'Alegreya', serif;
+}
+.novedades-img-1{
+    grid-area: nuevo1;
+    justify-self: left;
+}
+.novedades-titulo-1{
+    grid-area: texto1;
+    color: #ED84B3;
+}
+.novedades-texto-1{
+    grid-area: texto1;
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+    color: #AAD9DD;
+    padding: 10px;
+    align-self: center;
+}
+.novedades-img-2{
+    grid-area: nuevo2;
+    justify-self: right;
+}
+.novedades-titulo-2{
+    grid-area: texto2;
+    color: #ED84B3;
+}
+.novedades-texto-2{
+    grid-area: texto2;
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+    color: #AAD9DD;
+    padding: 10px;
+    align-self: center;
+}
+.novedades-img-3{
+    grid-area: nuevo3;
+    justify-self: left;
+}
+.novedades-titulo-3{
+    grid-area: texto3;
+    color: #ED84B3;
+}
+.novedades-texto-3{
+    grid-area: texto3;
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+    color: #AAD9DD;
+    padding: 10px;
+    align-self: center;
+}
+.novedades-img-4{
+    grid-area: nuevo4;
+    justify-self: right;
+}
+.novedades-titulo-4{
+    grid-area: texto4;
+    color: #ED84B3;
+}
+.novedades-texto-4{
+    grid-area: texto4;
+    font-family:'Alegreya', serif;
+    font-size: 1.3rem;
+    color: #AAD9DD;
+    padding: 10px;
+    align-self: center;
+}
+
+/*tienda*/
+.tienda{
+    font-family: 'Alegreya', serif;
+}
+.tienda h1{
+    font-size: 5rem;
+    color: #FAD4DB;
+}
+.tienda h2{
+    color: #ED84B3;
+    font-size: 3rem;
+}
+.card-text{
+    font-size: 1.5rem;
+    color: #312A6F;
+}
+.text-body-secondary{
+    font-size: 1rem;
+    color: #AAD9DD;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.whatsapp{
+    color: #CCEEBC;
+    font-size: 1.5rem;
+}
+.logowhatsapp{
+    width: 15%;
+}
+.redes{
+    color: #8CC0DE;
+    font-size: 1.5rem;
+}
+.logofacebook{
+    width: 15%;
+}
+.logoinstagram{
+    width: 15%;
+}
