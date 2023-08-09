@@ -249,20 +249,20 @@ footer{
     font-size: 1.5rem;
 }
 .logowhatsapp{
-    width: 15%;
+    width: 10%;
 }
 .redes{
     color: #8CC0DE;
     font-size: 1.5rem;
 }
 .logofacebook{
-    width: 15%;
+    width: 10%;
 }
 .logoinstagram{
-    width: 15%;
+    width: 10%;
 }
 
-/*celular*/
+/*mobile*/
 @media only screen and (max-width: 480px) {
     /*index*/
     .divPadreFlex{
@@ -370,4 +370,5 @@ footer{
         padding: 40px;
         align-self: center;
     }
+    /*contacto*/
 }
