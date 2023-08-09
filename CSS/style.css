@@ -30,7 +30,7 @@ header img{
 
 /*index*/
 
-/*banner*/
+/*index-banner*/
 
 .banner{
     background-image: url(../imagenes/banner1.jpg);
@@ -55,7 +55,7 @@ header img{
     font-size: 3rem;
 }
 
-/*main*/
+/*index-main*/
 
 main section h2{
     color: #312A6F;
@@ -75,29 +75,26 @@ main section div img{
     width: 40%;
 }
 
-/*contacto*/
-main div form label{
+/*tienda*/
+.tienda{
+    font-family: 'Alegreya', serif;
+}
+.tienda h1{
+    font-size: 5rem;
+    color: #FAD4DB;
+}
+.tienda h2{
+    color: #ED84B3;
+    font-size: 3rem;
+}
+.card-text{
+    font-size: 1.5rem;
+    color: #312A6F;
+}
+.text-body-secondary{
     font-size: 1rem;
+    color: #AAD9DD;
 }
-
-/*nosotros*/
-.textoPresentacion{
-    margin: 10px;
-    padding: 20px;
-    color: #FAF0D7;
-    text-align: left;
-    background-color: #8CC0DE;
-    font-size: 1.3rem;
-}   
-.fotoPresentacion{
-    width: 20%;
-    margin: 10px ;
-}
-.presentacion{
-    display: flex;
-    flex-direction: row;
-}
-
 
 /*novedades*/
 .contenedor-grid img{
@@ -145,9 +142,6 @@ main div form label{
     margin: 10px;
     padding: 40px;
     align-self: center;
-}
-.novedades-desayunos{
-    border: 3px solid blue;
 }
 .novedades-img-2{
     grid-area: nuevo2;
@@ -213,25 +207,35 @@ main div form label{
     align-self: center;
 }
 
-/*tienda*/
-.tienda{
-    font-family: 'Alegreya', serif;
-}
-.tienda h1{
+/*nosotros*/
+.nosotros h1{
     font-size: 5rem;
     color: #FAD4DB;
 }
-.tienda h2{
-    color: #ED84B3;
-    font-size: 3rem;
+.textoPresentacion{
+    margin: 10px;
+    padding: 20px;
+    color: #FAF0D7;
+    text-align: left;
+    background-color: #8CC0DE;
+    font-size: 1.3rem;
+}   
+.fotoPresentacion{
+    width: 20%;
+    margin: 10px ;
 }
-.card-text{
-    font-size: 1.5rem;
-    color: #312A6F;
+.presentacion{
+    display: flex;
+    flex-direction: row;
 }
-.text-body-secondary{
+
+/*contacto*/
+.contacto h1{
+    font-size: 5rem;
+    color: #FAD4DB;
+}
+main div form label{
     font-size: 1rem;
-    color: #AAD9DD;
 }
 
 /*footer*/
@@ -256,4 +260,114 @@ footer{
 }
 .logoinstagram{
     width: 15%;
+}
+
+/*celular*/
+@media only screen and (max-width: 480px) {
+    /*index*/
+    .divPadreFlex{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    /*nosotros*/
+    .presentacion{
+        flex-direction: column;
+    }
+    .fotoPresentacion{
+        width: 70%;
+        margin: 55px ;
+    }
+    /*novedades*/
+    .contenedor-grid{
+        display: grid;
+        grid-template-areas: 
+        "h1"  
+        "nuevo1"
+        "titulo1"
+        "texto1" 
+        "nuevo2"
+        "titulo2"
+        "texto2" 
+        "nuevo3"
+        "titulo3" 
+        "texto3"
+        "nuevo4"
+        "titulo4" 
+        "texto4";
+    
+        grid-template-rows: 100px 200px 50px 150px 200px 50px 150px 200px 50px 150px 200px 50px 150px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .grid-titulo{
+        grid-area: h1;
+        font-size: 4rem;
+    }
+    .novedades-img-1{
+        grid-area: nuevo1;
+        justify-self: center;
+        padding: 60px;
+    }
+    .novedades-titulo-1{
+        grid-area: titulo1;
+        margin: 10px;
+        padding: 40px;
+    }
+    .novedades-texto-1{
+        grid-area: texto1;
+        margin: 10px;
+        padding: 40px;
+        align-self: center;
+    }
+    .novedades-img-2{
+        grid-area: nuevo2;
+        justify-self: center;
+        padding: 60px;
+    }
+    .novedades-titulo-2{
+        grid-area: titulo2;
+        margin: 10px;
+        padding: 40px;
+    }
+    .novedades-texto-2{
+        grid-area: texto2;
+        margin: 10px;
+        padding: 40px;
+        align-self: center;
+    }
+    .novedades-img-3{
+        grid-area: nuevo3;
+        justify-self: center;
+        padding: 60px;
+    }
+    .novedades-titulo-3{
+        grid-area: titulo3;
+        margin: 10px;
+        padding: 40px;
+    }
+    .novedades-texto-3{
+        grid-area: texto3;
+        margin: 10px;
+        padding: 40px;
+        align-self: center;
+    }
+    .novedades-img-4{
+        grid-area: nuevo4;
+        justify-self: center;
+        padding: 60px;
+    }
+    .novedades-titulo-4{
+        grid-area: titulo4;
+        margin: 10px;
+        padding: 40px;
+    }
+    .novedades-texto-4{
+        grid-area: texto4;
+        margin: 10px;
+        padding: 40px;
+        align-self: center;
+    }
 }
