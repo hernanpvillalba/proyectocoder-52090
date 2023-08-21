@@ -1,0 +1,17 @@
+main{
+    .presentacion{
+        @include flex( row, space-evenly, center);
+        .fotoPresentacion{
+            width: 20%;
+            margin: 10px ;
+            }
+            .textoPresentacion{
+                margin: 10px;
+                padding: 20px;
+                color: #FAF0D7;
+                text-align: left;
+                background-color: #8CC0DE;
+                font-size: 1.3rem;
+            }
+    }
+}

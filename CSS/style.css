@@ -7,7 +7,7 @@
 #BDCC8A / verde
 */
 
-/*header*/
+/*header
 header img{
     width: 100px;
 }
@@ -21,16 +21,16 @@ header img{
 .nav-link{
     color: white;
 }
-
- /*body*/
+*/
+ /*body
  body{
     font-family: 'Alegreya', serif;
     font-size: 62.5%;
-}
+}*/
 
 /*index*/
 
-/*index-banner*/
+/*index-banner
 
 .banner{
     background-image: url(../imagenes/banner1.jpg);
@@ -53,15 +53,15 @@ header img{
 }
 .banner p{
     font-size: 3rem;
-}
+}*/
 
-/*index-main*/
+/*index-main
 
 main section h2{
     color: #312A6F;
     text-align: center;
     font-size: 2.5rem;
-    
+    margin-top: 80px;
 }
 .divPadreFlex{
     display: flex;
@@ -70,22 +70,24 @@ main section h2{
     text-align: center;
     color: #F6C1D9;
     font-size: 2rem;
+    margin-top: 70px;
 }
 main section div img{
     width: 40%;
-}
+}*/
 
 /*tienda*/
-.tienda{
+/*.tienda{
     font-family: 'Alegreya', serif;
 }
 .tienda h1{
     font-size: 5rem;
     color: #FAD4DB;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 .tienda h2{
     color: #ED84B3;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .card-text{
     font-size: 1.5rem;
@@ -94,13 +96,15 @@ main section div img{
 .text-body-secondary{
     font-size: 1rem;
     color: #AAD9DD;
-}
+}*/
 
 /*novedades*/
+/*
 .contenedor-grid img{
     width: 300px;
     height: 300px;
 }
+
 .contenedor-grid{
     display: grid;
     grid-template-areas: 
@@ -114,14 +118,25 @@ main section div img{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     justify-items: start;
-}
-.grid-titulo{
+}*/
+/*.grid-titulo{
     grid-area: h1;
     font-size: 5rem;
     color: #FAD4DB;
     font-family:'Alegreya', serif;
     justify-self: center;
+    align-self: center;
+}*/
+/*.novedades h1{
+    font-size: 5rem;
+    color: #FAD4DB;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
+.col{
+    padding: 60px;
+
+}*/
+/*
 .novedades-img-1{
     grid-area: nuevo1;
     justify-self: right;
@@ -205,12 +220,13 @@ main section div img{
     margin: 10px;
     padding: 40px;
     align-self: center;
-}
+}*/
 
 /*nosotros*/
-.nosotros h1{
+/*.nosotros h1{
     font-size: 5rem;
     color: #FAD4DB;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 .textoPresentacion{
     margin: 10px;
@@ -227,22 +243,25 @@ main section div img{
 .presentacion{
     display: flex;
     flex-direction: row;
-}
+}*/
 
 /*contacto*/
-.contacto h1{
+/*.contacto h1{
     font-size: 5rem;
     color: #FAD4DB;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 main div form label{
     font-size: 1rem;
-}
+}*/
 
 /*footer*/
-footer{
+/*footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
 }
 .whatsapp{
     color: #CCEEBC;
@@ -260,7 +279,7 @@ footer{
 }
 .logoinstagram{
     width: 10%;
-}
+}*/
 
 /*mobile*/
 @media only screen and (max-width: 480px) {

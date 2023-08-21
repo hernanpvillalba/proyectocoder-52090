@@ -1,0 +1,28 @@
+$rosa-fuerte:#F6C1D9;
+$fucsia:#ED84B3;
+$celeste:#AAD9DD;
+$azul: #312A6F;
+$rosa:#FAD4DB;
+$verde: #BDCC8A;
+$alegreya:'Alegreya', serif;
+
+h1{
+    color: $rosa;
+    font-family: $alegreya;
+    font-size: 4rem;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+body{
+    font-family: $alegreya;
+    font-size: 1rem;
+}
+
+@mixin flex ($direccion, $justify,$align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    text-align: $align;
+
+}

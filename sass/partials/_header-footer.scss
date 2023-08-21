@@ -1,0 +1,45 @@
+//header//
+header{
+    .bg-rosa{
+        background-color: $rosa-fuerte;
+        height: 80px;
+        img{
+        width: 80px;
+        }
+        .navbar-nav{
+            font-family:$alegreya;
+            font-size: 1.5rem;
+            .nav-link{
+                color: white;
+            }
+        }     
+    }
+    
+} 
+
+//footer//    
+
+footer{
+    @include flex( row, space-evenly, center);
+
+    .whatsapp{
+        color: #CCEEBC;
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    .logowhatsapp{
+        width: 10%;
+    }
+    .redes{
+        color: #8CC0DE;
+        font-size: 1.5rem;   
+        margin-top: 30px;
+
+    }
+    .logofacebook{
+        width: 10%;
+    }
+    .logoinstagram{
+        @extend .logofacebook;
+    }
+}

@@ -14,6 +14,7 @@
     crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <title>Novedades</title>
 </head>
 
@@ -43,22 +44,105 @@
     </header>
 
 
-    <main>
-        <section class="contenedor-grid">
-            <h1 class="grid-titulo">Novedades</h1>
-            <img class="novedades-img-1" src="../imagenes/desayunos1.jpg" alt="desayunos">
-            <h2 class="novedades-titulo-1">Desayunos</h2>
-            <p class="novedades-texto-1"> Nuestros desayunos incluyen, cafe, te, agua y jugo, medialunas, brownies, porcion de torta</p>
-            <img class="novedades-img-2" src="../imagenes/eventos1.jpg" alt="eventos">
-            <h2 class="novedades-titulo-2">Eventos</h2>
-            <p class="novedades-texto-2">Nos especializamos en preparacion de mesas dulces, ya sea para cumpleaños, casamiento o cualquier tipo de fiesta</p>
-            <img class="novedades-img-3" src="../imagenes/antojos1.jpg" alt="antojos">
-            <h2 class="novedades-titulo-3">Antojos</h2>
-            <p class="novedades-texto-3">Disfruta de cualquiera de los siguientes antojos para tomar mates o como postre</p>
-            <img class="novedades-img-4" src="../imagenes/celiaco1.jpg" alt="apto celiacos">
-            <h2 class="novedades-titulo-4">Aptos Celiacos</h2>
-            <p class="novedades-texto-4">Contamos con una amplia oferta de productos aptos para celiacos, para que todos puedan disfrutar de algo dulce y rico</p>
-        </section>
+    <main class="novedades">
+        <h1 class="text-center">Novedades</h1>
+
+        <div class="card mb-3 border-color" style="max-width: 600px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/desayunos1.jpg" class="img-fluid rounded-start" alt="desayunos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title text-start">Desayunos</h2>
+                <p class="card-text">Contiene cafe, te, mate cocido, jugo de naranja, pomelo, limonada, alfajor de maizena, croissant, pan de queso, tostado y porcion de marquise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-color" style="max-width: 600px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/eventos1.jpg" class="img-fluid rounded-start" alt="eventos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title text-start">Eventos</h2>
+                <p class="card-text">Contiene cafe, te, mate cocido, jugo de naranja, pomelo, limonada, alfajor de maizena, croissant, pan de queso, tostado y porcion de marquise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-color" style="max-width: 600px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/antojos1.jpg" class="img-fluid rounded-start" alt="antojos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title text-start">Antojos</h2>
+                <p class="card-text">Contiene cafe, te, mate cocido, jugo de naranja, pomelo, limonada, alfajor de maizena, croissant, pan de queso, tostado y porcion de marquise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-color" style="max-width: 600px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../imagenes/celiaco1.jpg" class="img-fluid rounded-start" alt="celiacos">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title text-start">Apto Celiacos</h2>
+                <p class="card-text">Contiene cafe, te, mate cocido, jugo de naranja, pomelo, limonada, alfajor de maizena, croissant, pan de queso, tostado y porcion de marquise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--
+           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="../imagenes/desayunos1.jpg" class="card-img-top" alt="desayunos">
+                <div class="card-body">
+                  <h2 class="card-title">Desayunos</h2>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-300">
+                <img src="../imagenes/eventos1.jpg" class="card-img-top" alt="eventos">
+                <div class="card-body">
+                  <h2 class="card-title">Eventos</h2>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="../imagenes/antojos1.jpg" class="card-img-top" alt="antojos">
+                <div class="card-body">
+                  <h2 class="card-title">Antojos</h2>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../imagenes/celiaco1.jpg" class="card-img-top" alt="celiacos">
+                <div class="card-body">
+                  <h2 class="card-title">Celiacos</h2>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
     </main>
 
     <footer>
@@ -76,7 +160,7 @@
             <a href="https://www.facebook.com/" target="_blank">
             <img class="logofacebook" src="../imagenes/Facebook_f_logo_(2019).svg.webp" alt="facebook">
             </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="https://www.instagram.com/blueberriespasteleria/" target="_blank">
             <img class="logoinstagram" src="../imagenes/Instagram_logo_2016.svg.webp" alt="instagram">
             </a>
         </section>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet');
+h1 {
+  color: #FAD4DB;
+  font-family: "Alegreya", serif;
+  font-size: 4rem;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+body {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+}
+
+header .bg-rosa {
+  background-color: #F6C1D9;
+  height: 80px;
+}
+header .bg-rosa img {
+  width: 80px;
+}
+header .bg-rosa .navbar-nav {
+  font-family: "Alegreya", serif;
+  font-size: 1.5rem;
+}
+header .bg-rosa .navbar-nav .nav-link {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+footer .whatsapp {
+  color: #CCEEBC;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+footer .logowhatsapp {
+  width: 10%;
+}
+footer .redes {
+  color: #8CC0DE;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+footer .logofacebook, footer .logoinstagram {
+  width: 10%;
+}
+.banner {
+  background-image: url(../imagenes/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 80px 0px;
+}
+.banner p {
+  font-size: 2.5rem;
+  color: #FAD4DB;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+main h2 {
+  font-family: "Alegreya", serif;
+  color: #312A6F;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 80px;
+}
+main .divPadreFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #ED84B3;
+  font-size: 1.5rem;
+  margin-top: 70px;
+}
+main .divPadreFlex img {
+  height: 250px;
+  width: 200px;
+}
+
+main .card {
+  margin-top: 30px;
+}
+main .card-title {
+  color: #ED84B3;
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+main .card-text {
+  font-family: "Alegreya", serif;
+  font-size: 1.3rem;
+  color: #312A6F;
+}
+main .text-body-secondary {
+  font-family: "Alegreya", serif;
+  font-size: 1rem;
+  color: #BDCC8A;
+}
+
+main .presentacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+main .presentacion .fotoPresentacion {
+  width: 20%;
+  margin: 10px;
+}
+main .presentacion .textoPresentacion {
+  margin: 10px;
+  padding: 20px;
+  color: #FAF0D7;
+  text-align: left;
+  background-color: #8CC0DE;
+  font-size: 1.3rem;
+}
+
+h1 {
+  margin-bottom: 60px;
+}
+
+.mb-3 {
+  margin: 10px 300px 10px 300px;
+}
+
+.border-color {
+  border-color: #ED84B3;
+}
+
+.form-label {
+  color: #312A6F;
+  font-size: 1rem;
+}
+
+.border-color {
+  color: #ED84B3;
+}
+
+/*# sourceMappingURL=estilos.css.map */
