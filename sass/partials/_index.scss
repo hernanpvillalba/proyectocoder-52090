@@ -4,30 +4,69 @@
     background-position: center;
     text-align: center;
     padding: 80px 0px;
-
-    p{
-        font-size: 2.5rem;
-        color: $rosa;
-        text-shadow: 1px 1px 3px rgb(0, 0, 0);
-    }
 }
 
 main{
-    h2{
+    .titulo-productos{
         font-family: $alegreya;
-        color: $azul;
+        color: $rosa;
+        font-weight: bold;
         text-align: center;
-        font-size: 2.5rem;
-        margin-top: 80px;
+        font-size: 2.7rem;
+        text-shadow: 2px 2px 3px rgb(245, 19, 136);
+        margin-top: 40px;
     }
     .divPadreFlex{
         @include flex( row, space-evenly, center);
         color: $fucsia;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-top: 70px;
         img{
             height: 250px;
             width: 200px;
+            transition: transform .2s;
         }
-    };
+        .desayunos:hover{
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+        .eventos:hover{
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+        .antojos:hover {
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+        .merienda:hover{
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+        .mesa-dulce:hover{
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+        .postres:hover{
+            outline: none;
+            font-weight: bold;
+            color: $azul;
+            opacity: 1;
+            transform:scale(1.3);
+        }
+    }
 }

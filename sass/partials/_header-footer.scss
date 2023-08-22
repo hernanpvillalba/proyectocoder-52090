@@ -1,7 +1,7 @@
 //header//
 header{
     .bg-rosa{
-        background-color: $rosa-fuerte;
+        background-color: $fucsia;
         height: 80px;
         img{
         width: 80px;
@@ -20,26 +20,30 @@ header{
 //footer//    
 
 footer{
-    @include flex( row, space-evenly, center);
-
-    .whatsapp{
-        color: #CCEEBC;
-        font-size: 1.5rem;
-        margin-top: 30px;
-    }
-    .logowhatsapp{
-        width: 10%;
-    }
+    @include flex( row, space-evenly, start);
+    
     .redes{
         color: #8CC0DE;
         font-size: 1.5rem;   
         margin-top: 30px;
-
+        margin-left: 20px;
     }
     .logofacebook{
-        width: 10%;
+        width: 5%;
+        margin-left: 20px;
+
     }
     .logoinstagram{
         @extend .logofacebook;
+    }
+    .fixwapp{
+        position: fixed;
+        width:70px;
+        height:70px;
+        bottom:20px;
+        right:30px;
+    }
+    .logowhatsapp{
+        width: 100%;
     }
 }

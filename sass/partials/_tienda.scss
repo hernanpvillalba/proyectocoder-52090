@@ -1,11 +1,11 @@
 main{
     .card{
         margin-top: 30px;
-        }
         .card-title{
             color:$fucsia;
             font-size: 1.7rem;
             margin-top: 10px;
+            text-align: center;
         }
         .card-text{
             font-family: $alegreya;
@@ -17,6 +17,6 @@ main{
             font-size: 1rem;
             color: $verde;
         }
-
-
     }
+
+}

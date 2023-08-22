@@ -282,15 +282,15 @@ main div form label{
 }*/
 
 /*mobile*/
-@media only screen and (max-width: 480px) {
-    /*index*/
+/*@media only screen and (max-width: 480px) {
+    /*index
     .divPadreFlex{
         flex-direction: column;
     }
     footer{
         flex-direction: column;
     }
-    /*nosotros*/
+    /*nosotros
     .presentacion{
         flex-direction: column;
     }
@@ -298,7 +298,7 @@ main div form label{
         width: 70%;
         margin: 55px ;
     }
-    /*novedades*/
+    /*novedades
     .contenedor-grid{
         display: grid;
         grid-template-areas: 
@@ -389,5 +389,5 @@ main div form label{
         padding: 40px;
         align-self: center;
     }
-    /*contacto*/
-}
+    /*contacto
+}*/

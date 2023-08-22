@@ -1,0 +1,137 @@
+/*mobile*/
+@media only screen and (max-width: 480px) {
+   
+    //header//
+    header{
+        .bg-rosa{
+            img{
+            width: 67px;
+            }
+            .navbar-nav{
+                font-size: 1rem;
+                text-shadow: 1px 1px 3px rgb(0, 0, 0);  
+            }     
+        }  
+    }
+
+    //banner//
+    .banner{
+        padding: 20px 0px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+    //main//
+    main{
+        .titulo-productos{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .divPadreFlex{
+            @include flex( column, space-evenly, center);
+            font-size: 1.2rem;
+            margin-top: 50px;
+            img{
+                height: 200px;
+                width: 150px;
+            }
+            .desayunos:hover{
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+            .eventos:hover{
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+            .antojos:hover {
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+            .merienda:hover{
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+            .mesa-dulce:hover{
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+            .postres:hover{
+                outline: none;
+                font-weight: none;
+                color: $fucsia;
+                transform:scale(1);
+            }
+        }
+        
+    }
+
+
+
+    //footer//
+    footer{
+        .logofacebook{
+            width: 10%;    
+        }
+        .logoinstagram{
+            @extend .logofacebook;
+        }
+        .fixwapp{
+            width:40px;
+            height:40px;
+            right:30px;
+        }
+    }
+    //nosotros//
+    main{
+        .presentacion{
+            @include flex( column, space-evenly, center);
+            .fotoPresentacion{
+                width: 250px;
+                margin: 10px;
+                align-self: center;
+                }
+            .textoPresentacion{
+                    padding: 60px;
+                    align-self: center;
+                    text-align: left;
+                    font-size: 1rem;
+                    margin-right: 20px;
+            }
+        }
+    }
+   
+    /*contacto*/
+    h1{
+        margin-bottom: 60px;
+    }
+    .mb-3{
+        margin: 10px 40px 10px 20px;
+    }
+    .border-color{
+        border-color: $fucsia;
+    }
+    .form-label{
+        color: $azul;
+        font-size: .8rem;
+    }
+    .btn-primary{
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+
+
+
+}
