@@ -3,23 +3,46 @@
    
     //header//
     header{
+        .navbar{
+            z-index: 3;
+        }
         .bg-rosa{
+            height: 70px;
             img{
-            width: 67px;
+            width: 50px;
             }
             .navbar-nav{
                 font-size: 1rem;
-                text-shadow: 1px 1px 3px rgb(0, 0, 0);  
+                text-shadow: 1px 1px 3px rgb(0, 0, 0);
             }     
         }  
     }
+
+    //footer//
+    footer{
+        .logofacebook{
+            width: 10%;    
+        }
+        .logoinstagram{
+            @extend .logofacebook;
+        }
+        .fixwapp{
+            width:40px;
+            height:40px;
+            right:30px;
+            z-index: 2;
+        }
+    }
+
+    //index//
 
     //banner//
     .banner{
         padding: 20px 0px;
     }
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-top: 20px;
     }
 
     //main//
@@ -76,22 +99,13 @@
         
     }
 
-
-
-    //footer//
-    footer{
-        .logofacebook{
-            width: 10%;    
-        }
-        .logoinstagram{
-            @extend .logofacebook;
-        }
-        .fixwapp{
-            width:40px;
-            height:40px;
-            right:30px;
+    //tienda//
+    .card{
+        img{
+            z-index: 1;
         }
     }
+
     //nosotros//
     main{
         .presentacion{
@@ -111,7 +125,7 @@
         }
     }
    
-    /*contacto*/
+    //contacto//
     h1{
         margin-bottom: 60px;
     }
@@ -133,5 +147,100 @@
 
 
 
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 978px){
+
+    //header//
+    header{
+        .bg-rosa{
+            height: 100px;
+            img{
+            width: 80px;
+            }
+            .navbar-nav{
+                font-size: 2rem;
+                text-shadow: 1px 1px 3px rgb(0, 0, 0);  
+            }     
+        }  
+    }
+
+    //banner//
+    h1{
+        font-size: 4.5rem;
+    }
+    
+    //index//
+    main{
+        .titulo-productos{
+            font-size: 3rem;
+
+        }
+        .divPadreFlex{
+            font-size: 2.3rem;
+            img{
+                height: 300px;
+                width: 250px;
+            }
+        }
+    }
+
+    //tienda//
+    main{
+        .card{
+            img{
+                height: 250px;
+            }
+            .tienda-titulo{
+                font-size: 1.7rem;
+                margin-top: 5px;
+            }
+            .tienda-texto{
+                font-size: 1.5rem;
+            }
+            .tienda-subtexto{
+                font-size: 1.4rem;
+            }
+        }
+    
+    }
+
+    //novedades//
+    main{
+        .mb-3{
+            margin: 50px 170px 50px 170px;
+        }
+        .novedades-titulo{
+            font-size: 1.7rem;
+        }
+        .novedades-texto{
+            font-size: 1.5rem;
+        }
+    }
+
+    //nosotros//
+    main{
+        .presentacion{
+            @include flex( column, space-evenly, center);
+            .fotoPresentacion{
+                align-self: center;
+                width: 500px;
+                height: 400px;
+                }
+            .textoPresentacion{
+                    font-size: 1.7rem;
+            }
+        }
+    }
+
+    //contacto//
+    .form-label{
+        font-size: 1.8rem;
+    }
+    .form-control{
+        font-size: 1.5rem;
+    }
 
 }

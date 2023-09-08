@@ -1,18 +1,18 @@
 main{
     .card{
         margin-top: 30px;
-        .card-title{
+        .tienda-titulo{
             color:$fucsia;
             font-size: 1.7rem;
             margin-top: 10px;
             text-align: center;
         }
-        .card-text{
+        .tienda-texto{
             font-family: $alegreya;
             font-size: 1.3rem;
             color: $azul;
         }
-        .text-body-secondary{
+        .tienda-subtexto{
             font-family: $alegreya;
             font-size: 1rem;
             color: $verde;

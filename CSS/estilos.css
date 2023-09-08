@@ -17,7 +17,7 @@ header .bg-rosa {
   height: 80px;
 }
 header .bg-rosa img {
-  width: 80px;
+  width: 75px;
 }
 header .bg-rosa .navbar-nav {
   font-family: "Alegreya", serif;
@@ -42,6 +42,7 @@ footer .redes {
 footer .logofacebook, footer .logoinstagram {
   width: 5%;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 footer .fixwapp {
   position: fixed;
@@ -68,7 +69,7 @@ main .titulo-productos {
   font-weight: bold;
   text-align: center;
   font-size: 2.7rem;
-  text-shadow: 2px 2px 3px rgb(245, 19, 136);
+  text-shadow: 2px 2px 3px rgb(1, 1, 1);
   margin-top: 40px;
 }
 main .divPadreFlex {
@@ -131,18 +132,18 @@ main .divPadreFlex .postres:hover {
 main .card {
   margin-top: 30px;
 }
-main .card .card-title {
+main .card .tienda-titulo {
   color: #ED84B3;
   font-size: 1.7rem;
   margin-top: 10px;
   text-align: center;
 }
-main .card .card-text {
+main .card .tienda-texto {
   font-family: "Alegreya", serif;
   font-size: 1.3rem;
   color: #312A6F;
 }
-main .card .text-body-secondary {
+main .card .tienda-subtexto {
   font-family: "Alegreya", serif;
   font-size: 1rem;
   color: #BDCC8A;
@@ -157,6 +158,7 @@ main .presentacion {
 main .presentacion .fotoPresentacion {
   width: 300px;
   margin: 10px;
+  margin-bottom: 40px;
 }
 main .presentacion .textoPresentacion {
   margin: 10px;
@@ -187,24 +189,48 @@ h1 {
   margin-top: 40px;
 }
 
-.border-color {
+main .border-color {
   color: #ED84B3;
+}
+main .novedades-titulo {
+  color: #ED84B3;
+  font-size: 1.7rem;
+}
+main .novedades-texto {
+  font-size: 1.3rem;
+  color: #312A6F;
 }
 
 /*mobile*/
 @media only screen and (max-width: 480px) {
+  header .navbar {
+    z-index: 3;
+  }
+  header .bg-rosa {
+    height: 70px;
+  }
   header .bg-rosa img {
-    width: 67px;
+    width: 50px;
   }
   header .bg-rosa .navbar-nav {
     font-size: 1rem;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
   }
+  footer .logofacebook, footer .logoinstagram {
+    width: 10%;
+  }
+  footer .fixwapp {
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    z-index: 2;
+  }
   .banner {
     padding: 20px 0px;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 20px;
   }
   main .titulo-productos {
     text-align: center;
@@ -258,13 +284,8 @@ h1 {
     color: #ED84B3;
     transform: scale(1);
   }
-  footer .logofacebook, footer .logoinstagram {
-    width: 10%;
-  }
-  footer .fixwapp {
-    width: 40px;
-    height: 40px;
-    right: 30px;
+  .card img {
+    z-index: 1;
   }
   main .presentacion {
     display: flex;
@@ -284,7 +305,6 @@ h1 {
     font-size: 1rem;
     margin-right: 20px;
   }
-  /*contacto*/
   h1 {
     margin-bottom: 60px;
   }
@@ -302,6 +322,74 @@ h1 {
     margin-top: 20px;
     margin-right: 100px;
     margin-left: 100px;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+  header .bg-rosa {
+    height: 100px;
+  }
+  header .bg-rosa img {
+    width: 80px;
+  }
+  header .bg-rosa .navbar-nav {
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  main .titulo-productos {
+    font-size: 3rem;
+  }
+  main .divPadreFlex {
+    font-size: 2.3rem;
+  }
+  main .divPadreFlex img {
+    height: 300px;
+    width: 250px;
+  }
+  main .card img {
+    height: 250px;
+  }
+  main .card .tienda-titulo {
+    font-size: 1.7rem;
+    margin-top: 5px;
+  }
+  main .card .tienda-texto {
+    font-size: 1.5rem;
+  }
+  main .card .tienda-subtexto {
+    font-size: 1.4rem;
+  }
+  main .mb-3 {
+    margin: 50px 170px 50px 170px;
+  }
+  main .novedades-titulo {
+    font-size: 1.7rem;
+  }
+  main .novedades-texto {
+    font-size: 1.5rem;
+  }
+  main .presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  main .presentacion .fotoPresentacion {
+    align-self: center;
+    width: 500px;
+    height: 400px;
+  }
+  main .presentacion .textoPresentacion {
+    font-size: 1.7rem;
+  }
+  .form-label {
+    font-size: 1.8rem;
+  }
+  .form-control {
+    font-size: 1.5rem;
   }
 }
 

@@ -1,3 +1,13 @@
-.border-color{
+main{
+    .border-color{
     color: $fucsia;
+    }
+    .novedades-titulo{
+        color:$fucsia;
+        font-size: 1.7rem;
+    }
+    .novedades-texto{
+        font-size: 1.3rem;
+        color: $azul;
+    }
 }
