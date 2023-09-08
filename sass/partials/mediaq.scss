@@ -166,7 +166,11 @@
             }
             .navbar-nav{
                 font-size: 2rem;
-                text-shadow: 1px 1px 3px rgb(0, 0, 0);  
+                text-shadow: 1px 1px 3px rgb(0, 0, 0);
+                a{
+                    background-color: $fucsia;
+                    margin-right: 700px;
+                }  
             }     
         }  
     }

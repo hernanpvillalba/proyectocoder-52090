@@ -340,6 +340,10 @@ main .novedades-texto {
     font-size: 2rem;
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
   }
+  header .bg-rosa .navbar-nav a {
+    background-color: #ED84B3;
+    margin-right: 700px;
+  }
   h1 {
     font-size: 4.5rem;
   }
